@@ -31,10 +31,7 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
   use a date it must still follow that format.*/
 
 let postsArray = [
-//[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
-//[ "posts/2020-11-10-My-Third-Post-Example.html" ],
-//[ "posts/2020-11-10-My-Second-Post-Example.html" ],
-[ "posts/2020-11-10-Post-Template.html" ] ];
+[ "posts/2025-01-08-Welcome.html" ] ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -64,6 +61,7 @@ let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></l
 '<li><a href="' + relativePath + '/about.html">About</a></li>' +
 '<li><a href="' + relativePath + '/projects.html">Projects</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">Blog Archive</a></li>' ;
+'<li style="text-align: left;">Arsen's website (w/blog)!</li></ul>' ;
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
