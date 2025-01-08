@@ -1,22 +1,58 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
 body {
-  background-color: #436a7b;
+  background-color: #2e2e2e;
   background-image: url('../images/bg_diamond.png');
-	background-position: top;
+  background-position: top;
   font-size: 18px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
+  padding: 0 120px;
+  color: #f0f0f0;
 }
 
-p {
-  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+#content {
+  background-color: #d6c4a1;
+  padding: 20px;
+  border: 2px solid #bfa28d;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0; 
+}
+
+#content h1, #content h2 {
+  background-color: #34436f;
+  color: #f0f0f0;
+  padding: 10px 20px;
+  border: 2px solid #2c3e50;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 2em;
+}
+
+#content h3, #content h4, #content h5 {
+  color: #7d8a94;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+#content p {
+  color: #5a5a5a;
+  line-height: 1.6em;
+}
+
+#content a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+#content a:hover { 
+  background-color: #00bcd4;
 }
 
 hr {
-  border: solid #c7b591;
+  border: solid #7f8c8d;
   border-width: 2px 0 0 0;
 }
 
@@ -26,72 +62,54 @@ img {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+
 .right {
   float: right;
   margin-left: 1em;
 }
+
 .left {
   float: left;
   margin-right: 1em;
 }
+
 .center {
   display: block;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
+
 @media only screen and (min-width: 600px) {
   .small {
     max-width: 60%;
     height: auto;
   }
 }
+
 .caption {
   margin-top: 0;
   font-size: 0.9em;
   font-style: italic;
 }
 
-a:hover { 
-  background-color: #fff6e6;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: Tahoma, Geneva, sans-serif;
-  color: #34436f;
-}
-
-/*#CONTAINER is the rectangle that contains everything but the background!*/
-#container {
-  margin: 3em auto;
-  width: 90%;
-	max-width: 700px;
-	background-color: #f1e3c9;
-  color: #151515; 
-  outline-color: #a9a9a9;
-  outline-style: ridge;
-  outline-width: 4px;
-  outline-offset: 0;
-}
-
-#content {
-  padding: 10px 5% 20px 5%;
-}
-
-
-/*HEADER STYLE*/
 #header {
-  background-color: #384879;
-  padding: 0 5%;
-  border-color: #a9a9a9;
-  border-style: ridge;
-  border-width: 0 0 4px 0;
+  background-color: #444444;
+  padding: 1em 5%;
+  border: 2px solid #888888;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  margin: 0;
 }
+
 #header ul {
   list-style-type: none;
   padding: 0.5em 0;
   margin: 0;
+  text-align: center;
 }
+
 #header li {
   font-size: 1.2em;
   display: inline-block;
@@ -99,44 +117,49 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0.2em;
   margin-top: 0.2em;
 }
+
 #header li a {
-  color: white;
+  color: #f0f0f0;
   text-decoration: none;
   background-color: inherit;
 }
+
 #header li a:hover {
   text-decoration: underline;
 }
 
-/*POST LIST STYLE*/
 #postlistdiv ul {
   font-size: 1.2em;
   padding: 0;
   list-style-type: none;
 }
+
 #recentpostlistdiv ul {
   font-size: 1.2em;
   padding: 0;
   list-style-type: none;
 }
+
 .moreposts {
   font-size: 0.8em;
   margin-top: 0.2em;
 }
 
-/*NEXT AND PREVIOUS LINKS STYLE*/
 #nextprev {
   text-align: center;
   margin-top: 1.4em;
 }
 
-/*DISQUS STYLE*/
 #disqus_thread {
   margin-top: 1.6em;
 }
 
-/*FOOTER STYLE*/
 #footer {
   font-size: 0.8em;
   padding: 0 5% 10px 5%;
+  text-align: center;
+}
+
+strong, b {
+  color: #34436f;
 }
