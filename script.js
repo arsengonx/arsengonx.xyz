@@ -64,7 +64,7 @@ let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></l
 '<li><a href="' + relativePath + '/about.html">About</a></li>' +
 '<li><a href="' + relativePath + '/projects.html">Projects</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">Blog Archive</a></li>'+
-'<li style="list-style: none; margin-left: auto; align: right;"><img src="images/logo.png" style="display: block;"></li></ul>' ;
+'<li style="list-style: none; margin-left: auto; text-align: right;"><img src="images/logo.png" style="display: block;"></li></ul>' ;
 
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
