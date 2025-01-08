@@ -60,8 +60,8 @@ if ( url.includes("posts/") ) {
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/about.html">About</a></li>' +
 '<li><a href="' + relativePath + '/projects.html">Projects</a></li>' +
-'<li><a href="' + relativePath + '/archive.html">Blog Archive</a></li>' ;
-'<li style="text-align: left;">Arsen's website (w/blog)!</li></ul>' ;
+'<li><a href="' + relativePath + '/archive.html">Blog Archive</a></li>' +
+'<li style="text-align: left;">Arsen\'s website (w/blog)!</li></ul>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
